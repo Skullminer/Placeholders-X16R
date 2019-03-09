@@ -1,13 +1,13 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Placeholder Core
-Comment=Connect to the Placeh P2P Network
-Comment[de]=Verbinde mit dem Placeh peer-to-peer Netzwerk
-Comment[fr]=Placeh, monnaie virtuelle cryptographique pair à pair
-Comment[tr]=Placeh, eşten eşe kriptografik sanal para birimi
-Exec=placeh-qt %u
+Name=Dimensionality Core
+Comment=Connect to the Dimensionality P2P Network
+Comment[de]=Verbinde mit dem Dimensionality peer-to-peer Netzwerk
+Comment[fr]=Dimensionality, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Dimensionality, eşten eşe kriptografik sanal para birimi
+Exec=Dimensionality-qt %u
 Terminal=false
 Type=Application
-Icon=placeh128
+Icon=Dimensionality128
 MimeType=x-scheme-handler/placeh;
 Categories=Office;Finance;
