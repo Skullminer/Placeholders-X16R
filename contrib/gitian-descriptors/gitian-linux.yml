@@ -1,5 +1,5 @@
 ---
-name: "placeh-linux-0.16"
+name: "Dimensionality-linux-0.16"
 enable_cache: true
 suites:
 - "trusty"
@@ -28,7 +28,7 @@ packages:
 - "ca-certificates"
 - "python"
 remotes:
-- "url": "https://github.com/PlacehProject/Placeholders.git"
+- "url": "https://github.com/DimensionalityProject/Dimensionality.git"
   "dir": "placeh"
 files: []
 script: |
