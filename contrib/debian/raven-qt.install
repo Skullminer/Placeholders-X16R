@@ -1,4 +1,4 @@
-usr/local/bin/placeh-qt usr/bin
+usr/local/bin/Dimensionality-qt usr/bin
 share/pixmaps/placeh32.xpm usr/share/pixmaps
 share/pixmaps/placeh16.xpm usr/share/pixmaps
 share/pixmaps/placeh128.png usr/share/pixmaps
