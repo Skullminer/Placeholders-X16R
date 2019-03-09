@@ -1217,15 +1217,15 @@ CAmount GetBlockSubsidy(int nHeight, const Consensus::Params& consensusParams)
 												   // -unredeemable wallets potentially.
    	
 	if( nHeight >= 2 ) { // reduce down to the expected block reward. 
-		nSubsidy = 5 * COIN;
+		nSubsidy = 3 * COIN;
 	}
 
 	if( nHeight >= THE_BULLISH_DPMIDD_PLATEAU ) { // Bullish DPMidd Plateau
-        	nSubsidy = 4.5 * COIN;
+        	nSubsidy = 2 * COIN;
 	}
 	
 	if( nHeight >= THE_SHIGGIDY_DROP ) { // Shiggidy drop
-        	nSubsidy = 2.5 * COIN;
+        	nSubsidy = 1 * COIN;
 	}
 
 	if( nHeight >= THE_SHIGGIDY_DROP ) { 
