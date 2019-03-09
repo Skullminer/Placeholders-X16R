@@ -1,5 +1,5 @@
 ---
-name: "placeh-osx-0.16"
+name: "Dimensionality-osx-0.16"
 enable_cache: true
 suites:
 - "trusty"
@@ -28,8 +28,8 @@ packages:
 - "python-setuptools"
 - "fonts-tuffy"
 remotes:
-- "url": "https://github.com/PlacehProject/Placeholders.git"
-  "dir": "placeh"
+- "url": "https://github.com/DimensionalityProject/Dimensionality.git"
+  "dir": "Dimensionalty"
 files:
 - "MacOSX10.11.sdk.tar.gz"
 script: |
