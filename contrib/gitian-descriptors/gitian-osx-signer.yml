@@ -1,5 +1,5 @@
 ---
-name: "placeh-dmg-signer"
+name: "Dimensionality-dmg-signer"
 suites:
 - "trusty"
 architectures:
@@ -7,7 +7,7 @@ architectures:
 packages:
 - "faketime"
 remotes:
-- "url": "https://github.com/placeh-core/placeh-detached-sigs.git"
+- "url": "https://github.com/Dimensionality-core/Dimensionalty-detached-sigs.git"
   "dir": "signature"
 files:
 - "placeh-osx-unsigned.tar.gz"
@@ -27,8 +27,8 @@ script: |
     chmod +x ${WRAP_DIR}/${prog}
   done
 
-  UNSIGNED=placeh-osx-unsigned.tar.gz
-  SIGNED=placeh-osx-signed.dmg
+  UNSIGNED=Dimensionalty-osx-unsigned.tar.gz
+  SIGNED=Dimensionality-osx-signed.dmg
 
   tar -xf ${UNSIGNED}
   OSX_VOLNAME="$(cat osx_volname)"
