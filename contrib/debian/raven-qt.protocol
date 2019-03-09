@@ -1,6 +1,6 @@
 [Protocol]
 exec=placeh-qt '%u'
-protocol=placeh
+protocol=Dimensionality
 input=none
 output=none
 helper=true
