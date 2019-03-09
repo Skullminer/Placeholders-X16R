@@ -1,5 +1,5 @@
 ---
-name: "placeh-win-signer"
+name: "Dimensionality-win-signer"
 suites:
 - "trusty"
 architectures:
@@ -8,7 +8,7 @@ packages:
 - "libssl-dev"
 - "autoconf"
 remotes:
-- "url": "https://github.com/placeh-core/placeh-detached-sigs.git"
+- "url": "https://github.com/Dimensionality-core/Dimensionality-detached-sigs.git"
   "dir": "signature"
 files:
 - "osslsigncode-1.7.1.tar.gz"
